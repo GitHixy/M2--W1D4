@@ -11,19 +11,51 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* 
+Stringa (String): 
+Una stringa è come una catena di perline. 
+Ogni perla è una lettera o un numero, e insieme formano una frase o una parola. Ad esempio, "Cane" è una stringa. 
+
+Numero (Number): 
+I numeri sono proprio come i numeri che usiamo quotidianamente. 
+Possiamo contarli, aggiungerli, sottrarli, moltiplicarli e dividerli.
+
+Booleano (Boolean): 
+Un booleano è come un interruttore elettrico, può essere acceso (true) o spento (false). 
+
+Array: 
+Un array è come una scatola.
+Puoi mettere dentro un sacco di oggetti diversi (come numeri o stringhe) e tenerli tutti insieme.
+
+Oggetto (Object): 
+Un oggetto è come una borsa con tasche dove in ogni tasca puoi mettere informazioni.
+
+Null: 
+Null è come un contenitore vuoto. Dichiarato esplicitamente vuoto.
+
+Non definito (Undefined): 
+Quando qualcosa è non definito, significa che non c'è alcun valore assegnato a esso al momento.
+*/
 
 /* ESERCIZIO 2
  Descrivi cos'è un oggetto in JavaScript, con parole tue.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+Se hai un oggetto chiamato "Persona" con una tasca chiamata "Nome" e un'altra tasca chiamata "Età", 
+puoi guardare dentro e vedere il nome di una persona e la sua età. 
+Gli oggetti in JavaScript sono utili perché ci consentono di organizzare le informazioni. 
+Sono come piccoli contenitori che aiutano il computer a capire e gestire dati diversi.
+ */
 
 /* ESERCIZIO 3
  Scriti il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let primoNumero = 12
+let secondoNumero = 20
+let somma = primoNumero + secondoNumero
+console.log("La somma dei due numeri è: " + somma);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
